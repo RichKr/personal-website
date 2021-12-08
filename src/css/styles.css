@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: navajowhite;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  padding: 5px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1em;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.75em;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/*dl {
+  list-style: circle;
+}*/
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  color: black;
+  background-color: yellow;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 1em;
+  border: 2px solid;
+}
+
+.page-header {
+  background-color: burlywood;
+  padding: 15px;
+}
+
+.card {
+  background-color: burlywood;
+  margin-top: 25px;
+  padding: 20px;
+  text-align: justify;
+}
+
+/* .Lebenslauf {
+  font-size: 1em;
+}*/
+
+.text-center {
+  text-align: center;
+}
+
+.quote {
+  background-color: rgb(190, 190, 190);
+  margin-top: 25px;
+  padding: 20px;
+  font-size: 1em;
+  text-align: justify;
+  border-radius: 10px;
+}
+
+.Fotos {
+  background-color: rgb(205, 179, 139);
+  margin-top: 25px;
+  padding: 20px;
+  font-size: 1em;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.page-footer {
+  background-color: rgb(205, 179, 139);
+  margin-top: 25px;
+  padding: 20px;
+  font-size: 1em;
+  text-align: justify;
+}
+
+.hidden {
+  display: none;
+}
+
+/*.active {
+  background-color: black;
+  color: yellow;
+}*/
